@@ -1,0 +1,7 @@
+#include<stdio.h> 
+int main(){
+	long long int prime[100001]={0},p[100001]={0},x=1,n,i,j; 
+	for(i=2;i<100001;i++){ if(p[i]==0){	prime[x++]=i; for(j=2;j*i<100001;j++) p[i*j]=1;}
+	}while(scanf("%lld",&n)!=EOF) printf("%lld\n",prime[n]);	
+	return 0;
+}

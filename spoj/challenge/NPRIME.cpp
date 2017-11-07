@@ -1,0 +1,2 @@
+#include<bits/stdc++.h>
+int main(){int r[105001]={0},*p,x=1,n,i,j;p=new int[1500001];for(i=2;i<1300001;i++){if(p[i]==0){r[x++]=i;for(j=2;j*i<1300001;j++)p[i*j]=1;}}while(scanf("%d",&n)!=EOF)printf("%d\n",r[n]);}

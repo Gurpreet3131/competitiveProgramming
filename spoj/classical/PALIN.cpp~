@@ -1,0 +1,14 @@
+#include<iostream>
+#include<stdio.h>
+#include<math.h>
+#include<algorithm>
+#include<string.h>
+#define max(a,b) a>b?a:b
+#define min(a,b) a<b?a:b
+#define mod 1000000007
+using namespace std;
+int main()
+{
+      
+	return 0;    
+}

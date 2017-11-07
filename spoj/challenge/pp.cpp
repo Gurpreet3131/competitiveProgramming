@@ -1,0 +1,2 @@
+#include<bits/stdc++.h>
+int main(){int r[1000001]={0},*p,x=1,n,i,j;p=new int[1500001]; p[0]=1; p[1]=1;for(i=2;i<1500001;i++){if(p[i]==0){r[x++]=i;for(j=2;j*i<1500001;j++)p[i*j]=1;}}int index=1;for(int i=1;i<1000001;i++){if(p[i]==0) {index++; printf("%d ",r[i]);}	if(index==10001) break;	}}

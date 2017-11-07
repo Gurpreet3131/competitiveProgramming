@@ -1,0 +1,35 @@
+rubix
+
+daisy 
+
+white cross by find edge with matching center and do F2
+
+find white corner matching center and perform
+	R U R' U'  righty alg until its there
+
+	//;lefty alg - L' U' L U
+
+to move edge to right or left perform 
+	U righty, spin right, lefty - to move to the right
+	U' , lefty, spin left, right  - to move to the left
+
+
+yellow cross
+
+line - F righty F'
+angle - f right f'
+dot - line + angle
+
+putting all corners at correct position and not correct orientation
+
+for adjaceant wrong corners perfron - 3*rights, spin right, 3 * lefty
+
+with thite at top find the corners at bottom right and perfrom righty until the yellow is at the bottom, do a d and repear until all yellow at bottom
+
+match with 2 layers and 2 cases poosible
+1. one edge matching,  with solved edge in the froont, perform righty, lefty, 5*righty, 5* lefty
+if not solved, perfrom this action again
+2. no edge matching, in this case just perform the 1 operation 
+ spin cude and do this opration again.
+
+cude is solved
